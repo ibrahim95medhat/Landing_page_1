@@ -1,0 +1,160 @@
+#navbar{
+    height: 49.5px;
+   
+}
+.main_cont{
+    background-color: rgba(0, 119, 255, 0.41);
+    margin: 0px;
+}
+
+.heading{
+    color: aliceblue;
+    font-size: 36pt;
+    font-weight: bolder;
+}
+.snav_bar{
+position: fixed;
+width:100%;
+top: 0;
+border:2px solid white;
+background-color: white;
+
+
+
+}
+#navlist{
+    list-style: none;
+    display:flex;
+    float: right;
+    margin-right: 0px;
+
+}
+.list{
+    margin-top: 5px;
+    font-size: 11.9pt;
+    color:black;
+    padding: 6px;
+}
+
+.cont{
+margin: 100px;
+}
+section p{
+font-size: 15pt;
+margin-top: 10px;
+}
+section h3{
+    font-size: 30pt;
+    font-weight: bold;
+    
+    text-decoration: underline;
+    color:white;
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+.sec{
+    margin:200px;
+      padding:50px;
+}
+
+.ft{
+    text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 540px){
+    #navlist{
+        display: flex;
+       float:left;
+       padding-left: 3%;
+        padding-right: 3%;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    .cont{
+        margin: 30px;
+    }
+    .sec{
+        margin: 10px;
+        padding: 25px;
+    }
+    .heading{
+        margin-top: 68px;
+    }
+    .list{
+        font-size: 14pt;
+    }
+    #navbar{
+        height: 41.6px;
+        padding-left: 6.5%;
+        margin-top: 0px;
+        
+    }
+
+}
+@media only screen and (min-width: 200px) and (max-width: 299px){
+    #navlist{
+    display: flex;
+    float:left;
+    padding-left: 3%;
+    padding-right:6%;
+    margin-top: 0px;
+    }
+    .cont{
+        margin: 30px;
+    }
+    .sec{
+        margin: 10px;
+        padding: 10px;
+    }
+    .heading{
+        margin-top: 68px;
+    }
+    .list{
+        font-size: 11.9pt;
+    }
+    #navbar{
+        height: 33.5px;
+        
+    }
+    .sec{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 925px){
+    section p{
+        font-size: 20pt;
+        margin-top: 10px;
+        }
+        .list{
+            font-size: 16pt;
+        }
+        #navlist{
+            display: flex;
+            float:left;
+           padding-left: 0px;
+           padding-right: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            }
+
+            .sec{
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #navbar{
+                height: 41.6px;
+                padding-left: 0px;
+                margin-top: 0px;
+                margin-left: 0px;
+                border: 0px;
+                
+            }
+            .list{
+                margin-top: 0px;
+                padding-bottom: 13px;
+                left: 0px;
+                font-size: 15pt;
+            }
+}
